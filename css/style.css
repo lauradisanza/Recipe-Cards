@@ -28,7 +28,12 @@ h1  {
 /***** MAIN *****/
 main  {
   height: 1000px;
-  margin: 0 170px;
+}
+.container-wrapper  {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 .card {
   margin: 25px 0;
